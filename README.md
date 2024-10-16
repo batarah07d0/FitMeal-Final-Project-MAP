@@ -13,6 +13,11 @@ Aplikasi FitMeal menyediakan layanan pemesanan makanan dan minuman yang sehat se
 *Admin*
 - CRUD (Create, Read, Update, and Delete) Menu
 
+### Tech Stack
+- Android Studio (Kotlin)
+- Firebase (Database & Account Authentication)
+- Figma (UI/UX Design)
+
 ### About Us 
 1. Richie Rich Kennedy Zakaria - 00000089613
 2. Batara Hotdo Horas Simbolon - 00000078626
