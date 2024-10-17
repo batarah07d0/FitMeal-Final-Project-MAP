@@ -1,7 +1,7 @@
-# FitHub (Mobile Application Programming Course Exam Project)
+# FitMeal(Mobile Application Programming Course Exam Project)
 
 ### Description
-FitHub adalah aplikasi yang dibuat untuk keperluan proyek akhir mata kuliah Mobile Application Programming di Universitas Multimedia Nusantara. 
+FitMeal adalah aplikasi yang dibuat untuk keperluan proyek akhir mata kuliah Mobile Application Programming di Universitas Multimedia Nusantara. 
 
 Aplikasi FitMeal menyediakan layanan pemesanan makanan dan minuman yang sehat secara online. FitMeal juga menampilkan informasi nutrisi pada makanan dan minuman yang dapat membantu pembeli dalam menjalani pola hidup yang sehat.
 
@@ -16,7 +16,7 @@ Aplikasi FitMeal menyediakan layanan pemesanan makanan dan minuman yang sehat se
 ### Tech Stack
 - Android Studio (Kotlin)
 - Firebase (Database & Account Authentication)
-- Figma (UI/UX Design) -> https://bit.ly/FitHub-FigmaDesign
+- Figma (UI/UX Design) -> https://bit.ly/FitMeal-FigmaDesign
 
 ### About Us 
 1. Richie Rich Kennedy Zakaria - 00000089613
