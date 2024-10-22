@@ -1,83 +1,158 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.RegisterActivity">
 
-    <TextView
-        android:id="@+id/registerTitle"
+    <!-- Title Logo -->
+    <ImageView
+        android:id="@+id/appTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create New Account"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/fitmeal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Tagline Text -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/appTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="8dp" />
 
+    <!-- Username Input Field -->
     <EditText
         android:id="@+id/usernameInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Username"
-        app:layout_constraintTop_toBottomOf="@id/registerTitle"
+        android:fontFamily="@font/poppinsregular"
+        app:layout_constraintTop_toBottomOf="@id/tagline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"/>
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
 
+    <!-- Mobile Number Input Field -->
     <EditText
         android:id="@+id/mobileNumberInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Mobile Number"
         android:inputType="phone"
+        android:fontFamily="@font/poppinsregular"
         app:layout_constraintTop_toBottomOf="@id/usernameInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"/>
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
 
+    <!-- Email Input Field -->
     <EditText
         android:id="@+id/emailRegisterInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:fontFamily="@font/poppinsregular"
         app:layout_constraintTop_toBottomOf="@id/mobileNumberInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"/>
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
 
+    <!-- Password Input Field -->
     <EditText
         android:id="@+id/passwordRegisterInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
+        android:fontFamily="@font/poppinsregular"
         app:layout_constraintTop_toBottomOf="@id/emailRegisterInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"/>
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
 
+    <!-- Register Button -->
     <Button
         android:id="@+id/registerButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/FitMealGreen"
         android:text="Register"
-        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsbold"
         app:layout_constraintTop_toBottomOf="@id/passwordRegisterInput"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"/>
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Divider Line -->
+    <View
+        android:id="@+id/dividerLine"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp" />
+
+    <!-- Or Sign Up Text -->
+    <TextView
+        android:id="@+id/orSignUpWithText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Sign Up With"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsregular"
+        app:layout_constraintTop_toBottomOf="@id/dividerLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Google Sign-In Button -->
+    <ImageView
+        android:id="@+id/googleSignInButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/googlelogin"
+        app:layout_constraintTop_toBottomOf="@id/orSignUpWithText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Login Button -->
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Already have an account? Login here"
+        android:textColor="@color/FitMealGreen"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="664dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
