@@ -12,11 +12,12 @@ users [icon: user, color: yellow]{
   role enum('admin', 'user')
 }
 
-menus [icon: coffee, color: green]{
-  menu_id integer pk
-  menu_name varchar(225)
+items [icon: coffee, color: green]{
+  item_id integer pk
+  item_name varchar(225)
   product_detail varchar(225)
   price decimal
+  calories integer
   categories enum('beverage', 'noodles_pasta', 'salad_smoothies', 'fruit_vegetables', 'animal_product')
   likes integer
 }
@@ -30,21 +31,21 @@ carts [icon: shopping-cart, color: orange]{
 cart_items [icon: list, color: red]{
   id integer pk
   cart_id integer fk
-  menu_id integer fk
+  item_id integer fk
   quantity integer
 }
 
 favorites [icon: heart, color: pink]{
   id integer pk
   user_id integer fk
-  menu_id integer fk
+  item_id integer fk
 }
 
 
 // define relationships
 carts.user_id > users.id
 cart_items.cart_id > carts.id
-cart_items.menu_id > menus.id
+cart_items.item_id > items.id
 favorites.user_id > users.id
-favorites.menu_id > menus.id
+favorites.item_id > items.id
 

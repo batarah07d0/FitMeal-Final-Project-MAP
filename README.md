@@ -29,7 +29,7 @@ _Admin_
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/README-FitMeal Application ERD-1.eraserdiagram" data-element-id="P0fd4w4bMcQvTn5W90Q47"><img src="/.eraser/GedMAcHZx09vyG4OD0Yx___A9w5VMyR0mcv5gvpU4VgGAsPL9w2___---diagram----8a4784e7521580e1d55f77713ee8a871-FitMeal-Application-ERD.png" alt="" data-element-id="P0fd4w4bMcQvTn5W90Q47" /></a>
+<a href="/README-FitMeal Application ERD-1.eraserdiagram" data-element-id="P0fd4w4bMcQvTn5W90Q47"><img src="/.eraser/GedMAcHZx09vyG4OD0Yx___A9w5VMyR0mcv5gvpU4VgGAsPL9w2___---diagram----7132e0f8b4657cbaf2320f630e463194-FitMeal-Application-ERD.png" alt="" data-element-id="P0fd4w4bMcQvTn5W90Q47" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/GedMAcHZx09vyG4OD0Yx --->
