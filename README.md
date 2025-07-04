@@ -5,7 +5,7 @@
 
 Proyek ini dibuat untuk memenuhi Ujian Akhir Semester (UAS) mata kuliah **Mobile Application Programming** di Universitas Multimedia Nusantara.
 
-➡️ **[Unduh Budget Wise APK dari Google Drive](https://drive.google.com/file/d/1y3wcmpvNRDBC1CpprK1GKltn3IkyUSCj/view?usp=sharing)**
+➡️ **[Unduh FitMeal APK dari Google Drive](https://drive.google.com/file/d/185foa05dYOnxqE1oYdAfbTqOKJ-9_Emp/view?usp=sharing)**
 
 ## Fitur Utama
 Aplikasi ini memiliki dua peran utama dengan fungsionalitas yang berbeda:
