@@ -25,6 +25,7 @@ Aplikasi ini memiliki dua peran utama dengan fungsionalitas yang berbeda:
 - **Laporan Proyek**: [﻿Lihat Laporan Lengkap di Google Docs](https://docs.google.com/document/d/1KZYvnzLxDaLeyEBwZX__zTDfBDLf7pj_PAtfHlF--3Q/edit?tab=t.0) 
 - **Desain UI/UX**: [﻿Lihat Desain di Figma](https://bit.ly/FitMeal-FigmaDesign) 
 - **Repository**: [﻿Lihat Kode di GitHub](https://github.com/batarah07d0/FitMeal-Final-Project-MAP) 
+- **Video Demo Aplikasi: **[﻿Demo Aplikasi](https://drive.google.com/file/d/1Yib4KyylVPKi3KGM_eYl3PHD5y2i-m7b/view) 
 ## Tim Pengembang
 - **Richie Rich Kennedy Zakaria** - 00000089613
 - **Batara Hotdo Horas Simbolon** - 00000078626
